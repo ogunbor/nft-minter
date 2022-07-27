@@ -68,7 +68,7 @@ export const ERC721Checker = ({ bunzz, userAddress }) => {
       )}
       {name ? <p>Name: {name}</p> : <></>}  <br /> <br /> <br />
       {description ? <p>Description: {description}</p> : <></>} <br /> <br />
-      {image ? <img src={image} alt="image" className="image" /> : <></>}
+      {image ? <img src={image} aria-hidden alt="image" className="image" /> : <></>}
     </div> 
   ); 
 };
